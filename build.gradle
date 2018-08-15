@@ -1,0 +1,53 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    ext {
+        kotlin_version = '1.2.51'
+        support_library = '27.1.1'
+        build_tools = '26.0.2'
+        constraint_layout = '1.1.2'
+        retrofitVersion = "2.3.0"
+        okhttpVersion = "3.9.1"
+        arch_comp = "1.1.1"
+        android_plugin = "3.1.4"
+
+        junit = '4.12'
+        mockito = '2.11.0'
+        espresso = '3.0.1'
+        android_junit_runner = '1.0.1'
+
+        compile_sdk = 27
+        min_sdk = 16
+        target_sdk = 27
+
+        app_id = 'com.mbakgun.weatherlogger'
+        version_code = 1
+        version_name = '1.0'
+    }
+
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    ext
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

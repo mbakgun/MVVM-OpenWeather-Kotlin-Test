@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weather Logger</string>
+
+    <string name="temperature_label">Temperature: %s</string>
+    <string name="date_label">Date Created: %s</string>
+    <string name="date_created_label">Date: %s</string>
+    <string name="country_label">Country: %s</string>
+    <string name="city_name_label">City: %s</string>
+    <string name="description_label">Description: %s</string>
+    <string name="remove_label">Remove</string>
+    <string name="more_details_label">More Details</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear_all">Clean</string>
+    <string name="click_to_getweatherdata_label">Click to GetWeatherData</string>
+</resources>
