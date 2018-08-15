@@ -10,13 +10,14 @@ The weather information  retrieved from https://openweathermap.org/api > Current
 - Local data storage (SQLite)
 - Unit test (JUnit/Robolectric)
 - UI tests using Espresso
-
-
+- Retrofit
+- Android Architecture Components
 
 ## Sample App
+Click image to download the application
 
 <a href='https://github.com/mbakgun/MVVM-OpenWeather-Kotlin-Test/blob/master/apk/app.apk'><p align="center">
-<img src="/screenshot/device-2018-08-15.png" alt="Click to Download Example App" width= "250px"/>
+<img src="/screenshot/device-2018-08-15.png" width= "250px"/>
 </p></a>
 
 
@@ -27,7 +28,7 @@ Any questions:Please feel free to contribute by pull request, issues or feature 
 
 ## License
 
-    Copyright 2017 Mehmet Burak Akgün
+    Copyright 2018 Mehmet Burak Akgün
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
