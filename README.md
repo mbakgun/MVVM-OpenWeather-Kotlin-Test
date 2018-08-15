@@ -1,7 +1,7 @@
 # MVVM-OpenWeather-Kotlin-Test
 Retrieve Weather Information from CurrentWeatherData API to show an example concepts of MVVM and Kotlin
 
-The weather information  retrieved from https://openweathermap.org/api > CurrentWeatherData API. Display the data in a list.
+The weather information  retrieved from https://openweathermap.org/api > CurrentWeatherData API and Display the data in a list.
 
 
 - Compatibility with Android 4.1 and onwards
@@ -10,6 +10,15 @@ The weather information  retrieved from https://openweathermap.org/api > Current
 - Local data storage (SQLite)
 - Unit test (JUnit/Robolectric)
 - UI tests using Espresso
+
+
+
+## Sample App
+
+<a href='https://github.com/mbakgun/MVVM-OpenWeather-Kotlin-Test/blob/master/apk/app.apk'><p align="center">
+<img src="/screenshot/device-2018-08-15.png" alt="Click to Download Example App" width= "250px"/>
+</p></a>
+
 
 ## Contact me
 Any questions:Please feel free to contribute by pull request, issues or feature requests.
